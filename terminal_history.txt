@@ -1,0 +1,908 @@
+   50  ls -al ~/.ssh
+   51  ssh-keygen -t rsa -b 4096 -C "vn392@stern.nyu.edu"
+   52  eval "$(ssh-agent -s)"
+   53  ssh-add ~/.ssh/id_rsa
+   54  pbcopy < ~/.ssh/id_rsa.pub
+   55  ssh -T git@github.com
+   56  conda --version
+   57  conda update conda
+   58  conda update anaconda
+   59  conda create -n dev python=3.7 anaconda
+   60  conda activate dev
+   61  conda init zsh
+   62  python -m ipykernel install --user --name dev
+   63  conda install -c conda-forge nodejs
+   64  conda deactivate
+   65  cd Desktop
+   66  mkdir test
+   67  touch sample.txt
+   68  cd test
+   69  ls
+   70  cd ..
+   71  mv sample.txt test
+   72  cd test
+   73  ls
+   74  mv sample.txt newsa.txt
+   75  ls
+   76  conda activate dev
+   77  jupyter lab
+   78  conda deactivate
+   79  conda activate dev
+   80  jupyter lab
+   81  conda deactivate
+   82  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/hello_variable_world.py"
+   83  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   84  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   85  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   86  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   87  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   88  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   89  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   90  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   91  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   92  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   93  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   94  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   95  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   96  /usr/bin/python3 "/Users/vdot206/Desktop/BootCamp Class Prep/Class 1/01_Hello_Variable_World/Unsolved/prac1.py"
+   97  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/02_Listing_Assets/Unsolved/listing_assets.py
+   98  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/02_Listing_Assets/Unsolved/test12.py
+   99  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/02_Listing_Assets/Unsolved/test12.py
+  100  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/02_Listing_Assets/Unsolved/test12.py
+  101  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  102  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  103  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  104  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/the_401k_shuffle.py
+  105  conda create -n dev python=3.7 anaconda
+  106  pwd
+  107  ls
+  108  cd
+  109  cd desktop
+  110  pwd
+  111  ls
+  112  mk dir FinTech_Workspace
+  113  mkdir FinTech_Workspace
+  114  ls
+  115  cd FinTech_Workspace
+  116  ls
+  117  cd ..
+  118  cd ~
+  119  pws
+  120  pwd
+  121  ls
+  122  cd desktop
+  123  ;s
+  124  ls
+  125  cd FinTech_Workspace
+  126  ls
+  127  cd python_project
+  128  ls
+  129  conda activate dev
+  130  python --version
+  131  code .
+  132  code .
+  133  python Hello_Python.py
+  134  conda deactivate
+  135  pwd
+  136  cd..
+  137  cd ..
+  138  python testvar.py
+  139  python TESTVAR.py
+  140  conda activate dev
+  141  python testvar.py
+  142  python TESTVAR.py
+  143  python testvar.py
+  144  python TESTVAR.py
+  145  ls
+  146  cd Python_Project
+  147  python testvar.py
+  148  conda deactivate
+  149  conda activate dev
+  150  pwd
+  151  cd ..
+  152  cd ..
+  153  ls
+  154  cd BootCamp Class Prep
+  155  cd BootCamp_Class_Prep
+  156  ls
+  157  cd Class_1
+  158  ls
+  159  cd 01_Hello_Variable_World
+  160  cd unsolved
+  161  python hello_variable_world
+  162  python hello_variable_world.py
+  163  conda deactivate
+  164  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/02_Listing_Assets/Unsolved/stock.py
+  165  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/02_Listing_Assets/Unsolved/stock.py
+  166  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/02_Listing_Assets/Unsolved/stock.py
+  167  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/02_Listing_Assets/Unsolved/stock.py
+  168  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/listpractice.py
+  169  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/listpractice.py
+  170  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/listpractice.py
+  171  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/listpractice.py
+  172  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/listpractice.py
+  173  /usr/bin/python3 /Users/vdot206/Desktop/BootCamp_Class_Prep/Class_1/03_The_401k_Shuffle/Unsolved/listpractice.py
+  174  pwd
+  175  ls
+  176  cd music
+  177  ..
+  178  cd ..
+  179  mkdir Fintech
+  180  ls
+  181  cd Fintech
+  182  ls
+  183  cd ..
+  184  cd Fintech
+  185  cd ~
+  186  cd ~
+  187  cd Fintech
+  188  ls
+  189  cd python_project
+  190  conda avtivate dev
+  191  conda activate dev
+  192  python --version
+  193  code .
+  194  python newproject.py
+  195  conda deactivate
+  196  cd ~
+  197  pwd
+  198  ls
+  199  cd Desktop
+  200  ls
+  201  cd BootCamp_Class_Prep
+  202  cd Class_1
+  203  03_The_401k_Shuffle
+  204  cd 03_The_401k_Shuffle
+  205  cd Unsolved
+  206  conda activate dev
+  207  python listpractice.py
+  208  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  209  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  210  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  211  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  212  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  213  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/01_Conditional_Statement/Unsolved/conditional_statement.py
+  214  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/01_Conditional_Statement/Unsolved/conditional_statement.py
+  215  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/01_Conditional_Statement/Unsolved/conditional_statement.py
+  216  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  217  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  218  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  219  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  220  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  221  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  222  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  223  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  224  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  225  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  226  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  227  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  228  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  229  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Nested_Conditionals/Unsolved/nested_conditionals.py
+  230  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  231  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  232  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  233  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  234  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying/Unsolved/split_second_homebuying.py
+  235  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  236  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/practice1.py
+  237  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/01_A_Definitive_Buy/Unsolved/a_definitive_buy.py
+  238  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Returned_Goods/Unsolved/returned_goods.py
+  239  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Returned_Goods/Unsolved/returned_goods.py
+  240  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Returned_Goods/Unsolved/returned_goods.py
+  241  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Returned_Goods/Unsolved/returned_goods.py
+  242  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  243  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  244  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  245  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  246  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Split_Second_Homebuying_Part_2/Unsolved/split_second_part_2.py
+  247  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  248  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  249  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  250  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  251  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  252  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  253  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  254  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  255  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  256  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  257  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  258  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  259  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  260  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  261  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  262  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/01_Racking_Up_The_Profit/Unsolved/racking_up_the_profit.py
+  263  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  264  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  265  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  266  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  267  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  268  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  269  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  270  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  271  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  272  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  273  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  274  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/prac2.py
+  275  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  276  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/prac3.py
+  277  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/prac3.py
+  278  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/prac3.py
+  279  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/prac3.py
+  280  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/prac3.py
+  281  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/prac3.py
+  282  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/prac3.py
+  283  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  284  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  285  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  286  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  287  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  288  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  289  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  290  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  291  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  292  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  293  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/02_Pathways_to_Success_Part_1/Unsolved/pathways_to_success.py
+  294  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  295  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/03_Pathways_to_Success_Part_2/Unsolved/pathways_to_success_part_2.py
+  296  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
+  297  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
+  298  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/04_Automating_Equity_Rounds/Unsolved/automated_equity_rounds.py
+  299  /usr/bin/python3
+  300  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  301  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  302  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  303  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  304  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  305  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  306  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  307  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  308  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  309  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  310  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  311  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  312  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  313  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  314  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  315  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  316  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  317  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  318  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  319  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  320  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  321  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  322  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  323  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  324  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  325  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  326  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  327  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  328  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  329  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  330  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  331  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  332  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  333  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  334  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/03_Stu_Conditional_Statements/Unsolved/conditional_statements.py
+  335  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/03_Stu_Conditional_Statements/Unsolved/conditional_statements.py
+  336  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/03_Stu_Conditional_Statements/Unsolved/conditional_statements.py
+  337  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/05_Stu_Conditionals/Unsolved/conditionals.py
+  338  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/07_Stu_Functions/Unsolved/functions.py
+  339  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/07_Stu_Functions/Unsolved/functions.py
+  340  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/07_Stu_Functions/Unsolved/functions.py
+  341  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/07_Stu_Functions/Unsolved/functions.py
+  342  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/07_Stu_Functions/Unsolved/functions.py
+  343  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/07_Stu_Functions/Unsolved/functions.py
+  344  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  345  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  346  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  347  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  348  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  349  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  350  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  351  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  352  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Solved/loops.py
+  353  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  354  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  355  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  356  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  357  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  358  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  359  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/09_Stu_Loops/Unsolved/loops.py
+  360  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  361  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  362  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  363  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  364  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  365  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  366  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  367  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  368  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  369  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  370  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  371  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  372  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  373  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  374  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  375  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  376  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  377  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  378  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  379  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module1_chall/Starter_Code/loan_analyzer.py
+  380  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+  381  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+  382  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+  383  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/01_Stu_Variables/Unsolved/variables.py
+  384  /usr/bin/python3 /Users/vdot206/Desktop/fintech/class_2/Class_2_Activities/03_Stu_Conditional_Statements/Unsolved/conditional_statements.py
+  385  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  386  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  387  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  388  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  389  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  390  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  391  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  392  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  393  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  394  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  395  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  396  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  397  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  398  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  399  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  400  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  401  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  402  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  403  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test2.py
+  404  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test2.py
+  405  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Loan_Qualifier_Financial_Calculations/Unsolved/app.py
+  406  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  407  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  408  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  409  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  410  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  411  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test13.py
+  412  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test12.py
+  413  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test12.py
+  414  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test12.py
+  415  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test12.py
+  416  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test13.py
+  417  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/test13.py
+  418  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/02_Loan_Qualifier_Filtering_Data/Unsolved/app.py
+  419  conda activate dev
+  420  pip -V
+  421  pip freeze
+  422  pip install fire
+  423  pip install questionary
+  424  conda dezctivate
+  425  conda deactivate
+  426  pwd
+  427  ls
+  428  cd Fintech
+  429  ls
+  430  touch fintech.txt
+  431  ls
+  432  rm fintech.txt
+  433  ls
+  434  ls -l
+  435  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  436  ]/usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  437  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  438  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/practice.py
+  439  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/practice.py
+  440  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/practice.py
+  441  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/cli.py
+  442  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/cli.py
+  443  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/cli.py
+  444  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/cli.py
+  445  ls
+  446  cd Desktop
+  447  ls
+  448  cs fintech
+  449  ls
+  450  cd fintech
+  451  ls
+  452  cd module-2
+  453  cd module_2
+  454  ls
+  455  cd Proj
+  456  ls
+  457  python cli.py
+  458  conda activate dev
+  459  cli.py
+  460  python cli.py
+  461  python cli.py
+  462  python cli.py --pants=True
+  463  ls
+  464  python app.py
+  465  python practice.py
+  466  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/app.py
+  467  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/practice.py
+  468  ls
+  469  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/practice.py
+  470  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/practice.py
+  471  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/01_Modularize_Your_Loan_Qualifier_Application_Part_2/Unsolved/practice.py
+  472  ls
+  473  cd Desktop
+  474  ls
+  475  cd fintech
+  476  ls
+  477  cd module_2
+  478  ls
+  479  cd Proj
+  480  ls
+  481  cd 01_Adding_Fire_to_the_Loan_Qualifier_App
+  482  ls
+  483  cd Unsolved
+  484  ls
+  485  python app.py
+  486  conda activate dev
+  487  python app.py
+  488  conda activate dev
+  489  cd Desktop
+  490  cd fintech
+  491  cd module_2
+  492  cd Proj
+  493  cd proj2
+  494  cd Unsolved
+  495  python app.py
+  496  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  497  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  498  conda activate dev
+  499  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  500  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  501  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/01_Adding_Fire_to_the_Loan_Qualifier_App/Unsolved/app.py
+  502  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/dilog.py
+  503  conda activate dev
+  504  cd part2
+  505  cd Unsolved
+  506  ls
+  507  python app.py
+  508  python app.py --credit_score=750
+  509  python app.py --credit_score=750 --debt=1000
+  510  python app.py --credit_score=750 --debt=1000 --income=100000
+  511  python app.py --credit_score=750 --debt=5000 --income=20000
+  512  python app.py --credit_score=750 --debt=5000 --income=20000
+  513  python app.py --credit_score=750 --debt=5000 --income=20000
+  514  python app.py
+  515  cd ..
+  516  cd solved
+  517  ls
+  518  python app.py
+  519  cd ..
+  520  cd unsolved
+  521  ls
+  522  python app.py
+  523  conda activate dev
+  524  cd Desktop
+  525  cd fintech
+  526  cd module_2
+  527  cd Proj
+  528  cd proj2
+  529  cd Unsolved
+  530  python app.py --credit_score=750
+  531  cd Desktop
+  532  cd fintech
+  533  cs module_2
+  534  cd  module_2
+  535  python app.py --credit_score=750
+  536  cd ..
+  537  cd ..
+  538  ls
+  539  python dilog.py
+  540  python dilog.py
+  541  python dilog.py
+  542  python dilog.py
+  543  python dilog.py
+  544  python dilog.py
+  545  python dilog.py
+  546  cd part2
+  547  cd Unsolved
+  548  ls
+  549  python app.py
+  550  python app.py --credit_score=750 --debt=5000 --income=20000
+  551  cd ..
+  552  cd Unsolved
+  553  ls
+  554  python app.py
+  555  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Proj/part2/Unsolved/app.py
+  556  conda activate dev
+  557  import fire
+  558  cd Desktop
+  559  cd fintech
+  560  cd module_2
+  561  cd Proj
+  562  cd part2
+  563  ls
+  564  cd Unsolved
+  565  ls
+  566  vx
+  567  python app.py --credit_score=750 --debt=5000 --income=20000
+  568  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py
+  569  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py
+  570  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py
+  571  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py
+  572  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/01-variables-01/Unsolved/variables-01.py
+  573  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/02-lists-01/Unsolved/lists-01.py
+  574  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/03-dicts-01/Unsolved/dicts-01.py
+  575  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+  576  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/01_Stu_Python_Code_Drills/Unsolved/04-condition-control-flow-01/Unsolved/condition-control-flow-01.py
+  577  cd Desktop
+  578  ls
+  579  cd fintech
+  580  ls
+  581  cd module_2
+  582  ls
+  583  cd Class_2
+  584  ls
+  585  cd Class_2_Activities
+  586  ls
+  587  cd .
+  588  cd ..
+  589  cd ..
+  590  ls
+  591  cd Class_1
+  592  ls
+  593  cd Class_1_Activities
+  594  ls
+  595  cd 05_stu_ATM_Modularization
+  596  ls
+  597  cd Unsolved
+  598  ls
+  599  cd atm
+  600  ls
+  601  python atm.py
+  602  python atm.py
+  603  python atm.py
+  604  python atm.py
+  605  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/05_Stu_ATM_Modularization/Unsolved/atm/atm.py
+  606  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_1/Class_1_Activities/05_Stu_ATM_Modularization/Unsolved/atm/atm.py
+  607  git config -- global user.name Viny Nair
+  608  git config --global user.email vn392@stern.nyu.edu
+  609  git config --list
+  610  cd Desktop
+  611  cd fintech
+  612  cd module_2
+  613  git clone https://github.com/vinynair/module_2_Lesson_4.git
+  614  cd ..
+  615  ls
+  616  cd Github
+  617  git clone https://github.com/vinynair/module_2_Lesson_4.git
+  618  ls
+  619  cd module_2_Lesson_4
+  620  git status
+  621  git add README.md
+  622  git status
+  623  touch add_file.txt
+  624  ls
+  625  git status
+  626  git add add_file.txt
+  627  git status
+  628  git commit -m "First test commit"
+  629  git status
+  630  git push
+  631  git push
+  632  git clone https://github.com/vinynair/module_2_Lesson_4.git
+  633  ls
+  634  module_2_Lesson_4
+  635  cd module_2_lesson_4
+  636  ls
+  637  cd..
+  638  cd ..
+  639  ls
+  640  cd Desktop
+  641  ls
+  642  cd fintech
+  643  ls
+  644  cd module_2
+  645  ls
+  646  cd module_2_Lesson_4
+  647  ls
+  648  git push
+  649  git status
+  650  git add README.md
+  651  git status
+  652  git push
+  653  git clone https://github.com/vinynair/module_2_Lesson_4.git
+  654  git status
+  655  git add
+  656  git add README.md
+  657  git push
+  658  cd ..
+  659  cd ..
+  660  ls
+  661  cd Desktop
+  662  cd fintech
+  663  git clone https://github.com/vinynair/module_2_Lesson_4.git
+  664  cd
+  665  ls
+  666  cd module_2_Lesson_4
+  667  ls
+  668  git status
+  669  git status
+  670  cd ..
+  671  cd Desktop
+  672  ls
+  673  cd fintech
+  674  git status
+  675  ls
+  676  cd module_2_Lesson_4
+  677  git status
+  678  git add README.md
+  679  git status
+  680  git commit -m "test push"
+  681  git status
+  682  git push
+  683  git status
+  684  git add
+  685  git add README.md
+  686  git commit -m "Test 2"
+  687  git push
+  688  git add README.md
+  689  git commit -m "Test 3"
+  690  git push
+  691  git add README.md
+  692  git push
+  693  git commit -m "Test 4"
+  694  git push
+  695  git add README.md
+  696  git commit -m "test 5"
+  697  git push
+  698  git add README.md
+  699  git commit -m "Test 6"
+  700  git push
+  701  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_2/Class_2_Activities/01_Ins_ATM_Application/Unsolved/atm/atm.py
+  702  conda activate dev
+  703  python atm.py
+  704  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_2/Class_2/Class_2_Activities/01_Ins_ATM_Application/Unsolved/atm/atm.py
+  705  /usr/bin/python3 /Users/vdot206/Desktop/fintech/module_1/class_2/04_Automating_Equity_Rounds/Solved/automated_equity_rounds.py
+  706  cd Desktop
+  707  ls
+  708  cd fintech
+  709  ls
+  710  cd module_2
+  711  ls
+  712  cd module_2_Challenge
+  713  git clone https://github.com/vinynair/Module_2_Challenge.git
+  714  ls
+  715  cd ..
+  716  ls
+  717  cd class_2
+  718  ls
+  719  cd Class_2_Activities
+  720  ls
+  721  cd 01_Ins_ATM_Application
+  722  cd Unsolved
+  723  ls
+  724  cd atm
+  725  ls
+  726  python atm.py
+  727  conda activate dev
+  728  python atm.oy
+  729  python atm.py
+  730  python atm.py
+  731  conda create -n atmdev python=3.7 anaconda
+  732  conda activate atmdev
+  733  install -r requirements.txt
+  734  pip install -r requirements.txt
+  735  cd ..
+  736  cd ..
+  737  cd ..
+  738  ls
+  739  cd 02_Stu_Build_ATM_Functions
+  740  ls
+  741  cd Unsolved
+  742  ls
+  743  cd atm
+  744  ls
+  745  python atm.py
+  746  python atm.py
+  747  python atm.py
+  748  python atm.py
+  749  python atm.py
+  750  python atm.py
+  751  conda deactivate
+  752  conda deactivate
+  753  cd
+  754  cd ..
+  755  ls
+  756  cd vdot206
+  757  ls
+  758  cd Desktop
+  759  cd
+  760  ls
+  761  cd Desktop
+  762  ls
+  763  cd fintech
+  764  ls
+  765  cd module_2
+  766  ls
+  767  cd SECOND
+  768  git clone https://github.com/vinynair/ATM_Application.git
+  769  git add atm.atm.py
+  770  cd atm
+  771  ls
+  772  cd ATM_Application
+  773  ls
+  774  cd atm
+  775  ls
+  776  git add atm.py
+  777  git status
+  778  git push
+  779  git commit -n "test add"
+  780  git commit -m "test add"
+  781  git push
+  782  git  clone https://github.com/zcor/uw_fintech_21.git
+  783  ls
+  784  cd uw_fintech_21
+  785  ls
+  786  cd Simulation-1
+  787  ls
+  788  git add VinyNair.md
+  789  git status
+  790  git add VinyNair.md
+  791  git status
+  792  git commit -m "Viny Nair Stocks"
+  793  git push
+  794  git status
+  795  git add VinyNair.md
+  796  git status
+  797  git push
+  798  ls
+  799  git status
+  800  git push
+  801  cd ..
+  802  cd ..
+  803  cd ..
+  804  https://github.co
+  805  git clone https://github.com/vinynair/Module_2_Challenge.git
+  806  ls
+  807  cs Starter_Code
+  808  cd Starter_Code
+  809  ls
+  810  cd loan_qualifier_app
+  811  ls
+  812  python app.py
+  813  conda activate dev
+  814  python app.py
+  815  python app.py
+  816  python app.py
+  817  python app.py
+  818  python app.py
+  819  python app.py
+  820  python app.py
+  821  git add app.py
+  822  git add README.md
+  823  git add results.csv
+  824  git add daily_rate_sheet
+  825  git add daily_rate_sheet.csv
+  826  git add .gitignore
+  827  git status
+  828  git commit -m "test1"
+  829  git push
+  830  ls
+  831  python app.py
+  832  python app.py
+  833  python app.py
+  834  python app.py
+  835  python app.py
+  836  python app.py
+  837  python app.py
+  838  python app.py
+  839  pyth app.py
+  840  python app.py
+  841  python app.py
+  842  python app.py
+  843  \tpython app.py
+  844  ls
+  845  git add README.md
+  846  git clone https://github.com/vinynair/Module_2_Challenge.git
+  847  git add README.md
+  848  git add README.md
+  849  cd ..
+  850  git add loan_qualifier_app
+  851  git clone https://github.com/vinynair/Module_2_Challenge.git
+  852  ls
+  853  cd loan_qualifier_app
+  854  ls
+  855  python app.py
+  856  git add README.md
+  857  git add app.py
+  858  cd
+  859  ls
+  860  cd Desktop
+  861  cd fintech
+  862  ls
+  863  cd Module_2_Challenge
+  864  ls
+  865  cd Module_2_Challenge
+  866  ls
+  867  git add README.md
+  868  git status
+  869  git commit -m "test32"
+  870  git push
+  871  git add results.csv
+  872  git add app.py
+  873  git add daily_rate_sheet.csv
+  874  git add qualifier.filters.credit_score.py
+  875  cd qualifier
+  876  ls
+  877  cd filters
+  878  ls
+  879  git add debt_to_income.py
+  880  git add max_loan_size.py
+  881  git add credit_score.py
+  882  git add loan_to_value.py
+  883  cd ..
+  884  ls
+  885  cd utils
+  886  ls
+  887  git add calculators.py
+  888  git add fileie.py
+  889  git add fileio.py
+  890  git commit -m "test all"
+  891  git push
+  892  cd ..
+  893  ls
+  894  cd..
+  895  cd ..
+  896  ls
+  897  python app.py
+  898  python app.py
+  899  python app.py
+  900  python app.py
+  901  python app.py
+  902  python app.py
+  903  python app.py
+  904  ls
+  905  cd Desktop
+  906  cd fintech
+  907  ls
+  908  cd Module_2_Challenge
+  909  ls
+  910  cd Module_2_Challenge
+  911  ls
+  912  python app.py
+  913  conda activate dev
+  914  python app.py
+  915  python app.py
+  916  python app.py
+  917  python app.py
+  918  python app.py
+  919  python app.py
+  920  python app.py
+  921  git add app.py
+  922  git status
+  923  git commit -m "app.py update"
+  924  git push
+  925  python app.py
+  926  python app.py
+  927  python app.py
+  928  python app.py
+  929  python app.py
+  930  git add app.py
+  931  git status
+  932  git commit -m "App.py comments"
+  933  git push
+  934  git status
+  935  git add app.py
+  936  git commit -m "app.py comments"
+  937  git push
+  938  git clone https://github.com/vinynair/Module_2_Challenge.git
+  939  python app.py
+  940  git add app.py
+  941  git status
+  942  git commit -m "comments app.py"
+  943  git push
+  944  git pull
+  945  conda activate dev
+  946  cd Desktop
+  947  ls
+  948  cd fintech
+  949  ls
+  950  cd Module_2_Challenge
+  951  ls
+  952  cd Module_2_Challenge
+  953  ls
+  954  git add app.py
+  955  git status
+  956  git commit -m "app comments"
+  957  git push
