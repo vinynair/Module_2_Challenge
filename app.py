@@ -98,20 +98,37 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     bank_data_filtered = filter_debt_to_income(monthly_debt_ratio, bank_data_filtered)
     bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
 
+    
     print(f"Found {len(bank_data_filtered)} qualifying loans")
-
+    if len(bank_data_filtered) == 0:
+        sys.exit("You are not eligible for any loans.")
     return bank_data_filtered
+
+    
 
 
 def save_qualifying_loans(qualifying_loans):
-    """Saves the qualifying loans to a CSV file.
+    action = questionary.select(
+        "Do you want to save your results?", choices=["Yes", "No"]).ask()
+    if action == "No":
+        sys.exit(
+        "OK - Will exit without saving results."
+        )
+    #Set output path for output file.
+    else:    
 
-    Args:
-        qualifying_loans (list of lists): The qualifying bank loans.
-    """
-    # @TODO: Complete the usability dialog for savings the CSV Files.
-    # YOUR CODE HERE!
+        outputcsv = questionary.text(
+        "Please enter the desired file name + (.csv). Type 'cancel' to cancel save").ask()
+# Open the output CSV file path using `with open`
+        if outputcsv == "cancel":
+            sys.exit("You cancelled the save")
+        else:
+            with open(outputcsv, "w") as csvfile:
+    # Create a csvwriter and write ech row of qualifying loan list.
+                csvwriter = csv.writer(csvfile, delimiter=",")
 
+                for loan in qualifying_loans:
+                    csvwriter.writerow(loan)
 
 def run():
     """The main function for running the script."""
@@ -127,26 +144,10 @@ def run():
         bank_data, credit_score, debt, income, loan_amount, home_value
     )
 
+    
     # Save qualifying loans
     save_qualifying_loans(qualifying_loans)
-    action = questionary.select(
-        "Do you want to save your results?", choices=["Yes", "No"]).ask()
-    if action == "No":
-        sys.exit(
-        "OK - Will exit without saving results."
-        )
-    #Set output path for output file.
-    else:    
-
-        outputcsv = questionary.text(
-        "Please enter the desired file name + (.csv)").ask()
-# Open the output CSV file path using `with open`   
-        with open(outputcsv, "w") as csvfile:
-    # Create a csvwriter and write ech row of qualifying loan list.
-            csvwriter = csv.writer(csvfile, delimiter=",")
-
-            for loan in qualifying_loans:
-                csvwriter.writerow(loan)
+    
 
 
 run()
