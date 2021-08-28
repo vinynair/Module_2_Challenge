@@ -106,7 +106,7 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     
     print(f"Found {len(bank_data_filtered)} qualifying loans")
     if len(bank_data_filtered) == 0:
-        sys.exit("You are not eligible for any loans.")
+        sys.exit("You are not eligible for any loans from our partner banks.")
     return bank_data_filtered
 
     
